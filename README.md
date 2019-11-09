@@ -19,3 +19,8 @@ yarn run build
 ```
 yarn run lint
 ```
+
+### Run jest
+```
+yarn jest
+```

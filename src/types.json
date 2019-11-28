@@ -1,0 +1,254 @@
+{
+  "Normal": {
+    "name": "ノーマル",
+    "color": "#AEAEAE",
+    "attack": {
+      "strong" : [],
+      "week": ["Rock","Steel"],
+      "noeffect": ["Ghost"]
+    },
+    "defense": {
+      "strong" : [],
+      "week": ["Fighting"],
+      "noeffect": ["Ghost"]
+    }
+  },
+  "Fire": {
+    "name" : "ほのお",
+    "color": "#FFA867",
+    "attack": {
+      "strong": ["Grass","Ice","Bug","Steel"],
+      "week": ["Fire","Water","Rock","Dragon"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Fire","Grass","Ice","Bug","Steel","Fairy"],
+      "week": ["Water","Ground","Rock"],
+      "noeffect": []
+    }
+  },
+  "Water": {
+    "name": "みず",
+    "color": "#A4DBFA",
+    "attack": {
+      "strong": ["Fire","Ground","Rock"],
+      "week": ["Water","Grass","Dragon"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Fire","Water","Ice","Steel"],
+      "week": ["Grass","Electric"],
+      "noeffect": []
+    }
+  },
+  "Electric": {
+    "name": "でんき",
+    "color": "#E8D72A",
+    "attack": {
+      "strong": ["Water","Flying"],
+      "week": ["Grass","Electric","Dragon"],
+      "noeffect": ["Ground"]
+    },
+    "defense": {
+      "strong": ["Electric","Flying","Steel"],
+      "week": ["Ground"],
+      "noeffect": []
+    }
+  },
+  "Grass": {
+    "name": "くさ",
+    "color": "#9AC30F",
+    "attack": {
+      "strong": ["Water","Ground","Rock"],
+      "week": ["Fire","Grass","Poison","Flying","Bug","Dragon","Steel"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Water","Grass","Electric","Ground"],
+      "week": ["Fire","Ice","Poison","Flying","Bug"],
+      "noeffect": []
+    }
+  },
+  "Ice": {
+    "name": "こおり",
+    "color": "#5FE9F5",
+    "attack": {
+      "strong": ["Grass","Ground","Flying","Dragon"],
+      "week": ["Fire","Water","Ice","Steel"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Ice"],
+      "week": ["Fire","Fighting","Rock","Steel"],
+      "noeffect": []
+    }
+  },
+  "Fighting": {
+    "name": "かくとう",
+    "color": "#F07373",
+    "attack": {
+      "strong": ["Normal","Ice","Rock","Dark","Steel"],
+      "week": ["Poison","Flying","Psychic","Bug","Fairy"],
+      "noeffect": ["Ghost"]
+    },
+    "defense": {
+      "strong": ["Bug","Rock","Dark"],
+      "week": ["Flying","Psychic","Fairy"],
+      "noeffect": []
+    }
+  },
+  "Poison": {
+    "name": "どく",
+    "color": "#AC7ACA",
+    "attack": {
+      "strong": ["Grass","Fairy"],
+      "week": ["Poison","Ground","Rock","Ghost"],
+      "noeffect": ["Steel"]
+    },
+    "defense": {
+      "strong": ["Grass","Fighting","Poison","Bug","Fairy"],
+      "week": ["Ground","Psychic"],
+      "noeffect": []
+    }
+  },
+  "Ground": {
+    "name": "じめん",
+    "color": "#C8A841",
+    "attack": {
+      "strong": ["Fire","Electric","Poison","Rock","Steel"],
+      "week": ["Grass","Bug"],
+      "noeffect": ["Flying"]
+    },
+    "defense": {
+      "strong": ["Poison","Rock"],
+      "week": ["Water","Grass","Ice"],
+      "noeffect": ["Electric"]
+    }
+  },
+  "Flying": {
+    "name": "ひこう",
+    "color": "#64A7F1",
+    "attack": {
+      "strong": ["Grass","Fighting","Bug"],
+      "week": ["Electric","Rock","Steel"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Grass","Fighting","Bug"],
+      "week": ["Electric","Ice","Rock"],
+      "noeffect": ["Ground"]
+    }
+  },
+  "Psychic": {
+    "name": "エスパー",
+    "color": "#EB80F4",
+    "attack": {
+      "strong": ["Fighting","Poison"],
+      "week": ["Psychic","Steel"],
+      "noeffect": ["Dark"]
+    },
+    "defense": {
+      "strong": ["Fighting","Psychic"],
+      "week": ["Bug","Ghost","Dark"],
+      "noeffect": []
+    }
+  },
+  "Bug": {
+    "name": "むし",
+    "color": "#51CB5A",
+    "attack": {
+      "strong": ["Grass","Psychic","Dark"],
+      "week": ["Fire","Fighting","Poison","Flying","Ghost","Steel","Fairy"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Grass","Fighting","Ground"],
+      "week": ["Fire","Flying","Rock"],
+      "noeffect": []
+    }
+  },
+  "Rock": {
+    "name": "いわ",
+    "color": "#FAC727",
+    "attack": {
+      "strong": ["Fire","Ice","Flying","Bug"],
+      "week": ["Fighting","Ground","Steel"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Normal","Fire","Poison","Flying"],
+      "week": ["Water","Grass","Fighting","Ground","Steel"],
+      "noeffect": []
+    }
+  },
+  "Ghost": {
+    "name": "ゴースト",
+    "color": "#A6A1CD",
+    "attack": {
+      "strong": ["Psychic","Ghost"],
+      "week": ["Dark"],
+      "noeffect": ["Normal"]
+    },
+    "defense": {
+      "strong": ["Poison","Bug"],
+      "week": ["Ghost","Dark"],
+      "noeffect": ["Normal","Fighting"]
+    }
+  },
+  "Dragon": {
+    "name": "ドラゴン",
+    "color": "#FF8859",
+    "attack": {
+      "strong": ["Dragon"],
+      "week": ["Steel"],
+      "noeffect": ["Fairy"]
+    },
+    "defense": {
+      "strong": ["Fire","Water","Grass","Electric"],
+      "week": ["Ice","Dragon","Fairy"],
+      "noeffect": []
+    }
+  },
+  "Dark": {
+    "name": "あく",
+    "color": "#6881D4",
+    "attack": {
+      "strong": ["Psychic","Ghost"],
+      "week": ["Fighting","Dark","Fairy"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Ghost","Dark"],
+      "week": ["Fighting","Bug","Fairy"],
+      "noeffect": ["Psychic"]
+    }
+  },
+  "Steel": {
+    "name": "はがね",
+    "color": "#A2A9BB",
+    "attack": {
+      "strong": ["Ice","Rock","Fairy"],
+      "week": ["Fire","Water","Electric","Steel"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Normal","Grass","Ice","Flying","Psychic","Bug","Rock","Dragon","Steel","Fairy"],
+      "week": ["Fire","Fighting","Ground"],
+      "noeffect": ["Poison"]
+    }
+  },
+  "Fairy": {
+    "name": "フェアリー",
+    "color": "#FC7799",
+    "attack": {
+      "strong": ["Fighting","Dragon","Dark"],
+      "week": ["Fire","Poison","Steel"],
+      "noeffect": []
+    },
+    "defense": {
+      "strong": ["Fighting","Bug","Dark"],
+      "week": ["Poison","Steel"],
+      "noeffect": ["Dragon"]
+    }
+  }
+}
